@@ -12,7 +12,7 @@ function Button({children,type,onClick,buttonStyle,buttonSize}) {
         <button className={'btn ${checkButtonStyle} ${checkButtonSize}'}
         onClick={onclick}
         type={type}
-        
+
         >
 {children}
         </button>
